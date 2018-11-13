@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        @keyframes car{
+
+            from{
+                left: 10px;
+            }
+            to{
+                left: 1100px;
+            }
+        }
+        @keyframes wheel{
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(359deg);
+            }
+        }
+            #container{
+            position: relative;
+            top: -260px;
+            animation: car 5s linear;
+        }
+
+        #road{
+            width: 100%;
+
+        }
+        #car{
+            width: 200px;
+        }
+        #w1{
+            width: 28px;
+            position: relative;
+            left: -172px;
+            top: -12px;
+            animation: wheel 5s linear;
+        }
+        #w2{
+            width: 28px;
+            position: relative;
+            top: -11px;
+            left: -90px;
+            animation: wheel 5s linear;
+        }
+        @keyframes car1{
+
+        from{
+            left: 10px;
+            }
+            to{
+            left: 1100px;
+            }
+        }
+        @keyframes wheel1{
+            from{
+                    transform: rotate(0deg);
+                }
+            to{
+                    transform: rotate(359deg);
+                }
+        }
+        #container1{
+                position: relative;
+                top: -192px;
+                animation: car 5s linear;
+                }
+
+        #road1{
+            width: 100%;
+
+        }
+        #car1{
+            width: 187px;
+        }
+        #w11{
+            width: 25px;
+            position: relative;
+            left: -161px;
+            top: -12px;
+            animation: wheel 5s linear;
+        }
+        #w22{
+                width: 24px;
+                position: relative;
+                top: -13px;
+                left: -83px;
+                animation: wheel 5s linear;
+            }
+
+
+
+
+    </style>
+</head>
+<body>
+    <img id="road" src="myroad.jpg" />
+    <div id="container">
+        <img id="car" src="my-car.png" />
+        <img id="w1" src="wheel.png" />
+        <img id="w2" src="wheel.png" />
+
+    </div>
+    <div id="container1">
+            <img id="car1" src="my-car.png" />
+            <img id="w11" src="wheel.png" />
+            <img id="w22" src="wheel.png" />
+    
+        </div>
+</body>
+</html>
